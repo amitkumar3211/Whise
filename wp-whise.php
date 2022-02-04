@@ -57,7 +57,7 @@ class Plugin_Boilerplate {
 
 new Plugin_Boilerplate( Container::getInstance() );
 
- wp_enqueue_script( 'custom', WP_WHISE_URL.'/ap.js', true );
+ wp_enqueue_script( 'custom', WP_WHISE_URL.'/js/admin/api.js', true );
 
 ?>
 
